@@ -1,0 +1,207 @@
+﻿@media screen and (max-width: 1100px) {
+    #logo {
+        padding-right: 5em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    #podaci {
+        #slika {
+            height: 32em;
+            width:28em;
+        }
+
+        #tekst-podaci {
+            font-size: 1.4em;
+        }
+    }
+
+    #container {
+        .tekst {
+            font-size: x-large;
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    #logo {
+        padding-right: 3em;
+
+        img {
+            width: 250px;
+            height: 100px;
+        }
+    }
+
+    #nav ul li a {
+        font-size: 1.3em;
+    }
+    #container {
+        .tekst {
+            font-size: larger;
+        }
+    }
+    #podaci {
+        #slika {
+            height: 27em;
+            width: 22em;
+        }
+
+
+        #tekst-podaci {
+            font-size: 1.2em;
+        }
+    }
+    #main-txt{
+        h2{
+            font-size:1.1em;
+        }
+        h1{
+            font-size:1.6em;
+        }
+    }
+
+}
+@media screen and (max-width: 890px) {
+    #logo {
+display:flex;
+align-items:center;
+justify-content:center;
+padding-right: 1.5em;
+
+        img {
+            width: 200px;
+            height: 50px;
+        }
+    }
+    #main-txt {
+        padding-top: 3em;
+        margin: 4em;
+        font-size: 1.1em;
+    }
+    #nav ul li a {
+        font-size: 1em;
+    }
+
+    #container {
+        .tekst {
+            font-size: larger;
+        }
+    }
+
+    #podaci {
+        #slika {
+            height: 27em;
+            width: 15em;
+        }
+
+
+        #tekst-podaci {
+            font-size: 1.19em;
+        }
+    }
+
+    #main-txt {
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h1 {
+            font-size: 1.6em;
+        }
+    }
+    #forma {
+        input[type="text"] {
+            width: 25em;
+        }
+
+        [type="email"] {
+            width: 25em;
+        }
+
+        textarea {
+            width: 25em;
+        }
+
+        .dugme {
+            width: 10em;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    #logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0.8em;
+        width:5em;
+
+        img {
+            width: 175px;
+            height: 25px;
+        }
+    }
+
+
+    #nav ul li a {
+        font-size: 0.7em;
+    }
+
+    #container {
+        .tekst {
+            font-size: medium;
+        }
+    }
+
+    #podaci {
+        #slika {
+            height: 24em;
+            width: 13em;
+        }
+
+        #tekst-podaci {
+            font-size: 1em;
+        }
+    }
+
+    #main-txt {
+        h2 {
+            font-size: 1.4em;
+        }
+
+        h1 {
+            font-size: 1.7em;
+        }
+    }
+    #container2 {
+        .projekat {
+            .slika1 {
+                width: 250px;
+                height: 125px;
+
+                &:hover {
+                    transform: scale(1.4);
+                }
+            }
+        }
+    }
+
+    #forma {
+        input[type="text"] {
+            width: 22em;
+        }
+
+        [type="email"] {
+            width: 22em;
+        }
+
+        textarea {
+            width: 22em;
+        }
+
+        .dugme {
+            width: 10em;
+        }
+    }
+} 

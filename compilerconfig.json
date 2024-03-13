@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "assets/css/style.css",
+    "inputFile": "assets/css/style.scss"
+  },
+  {
+    "outputFile": "assets/css/Responsive.css",
+    "inputFile": "assets/css/Responsive.scss"
+  }
+]
